@@ -1,0 +1,99 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: minmax(100px,auto);
+
+}
+.innerWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+p {
+    margin: -0.2em;
+}
+
+#title{
+    grid-column: 1/4;
+    background-color: rgb(140, 140, 212);
+    padding: 20px;
+   
+}
+#main{
+    grid-column: 2/4;
+    margin-right: 15em;
+    margin-left: -3.5em;
+}
+#side {
+    margin-left: 8em;
+    margin-right: 5em;
+    background-color: gainsboro;
+    grid-gap: 1em;
+    margin-top: 1em;
+}
+#inner_side{
+    padding-left: 1.5em;
+}
+header{
+    text-align: center;
+    padding-top: 1em;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif; 
+    border:solid;
+    height: 125px;
+    width: 300px;     
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.control
+{
+    background-color:red;
+    border: 1px white solid;
+    
+}
+.fa-phone:before {
+    padding-right: 1em;
+    content: "\f095";
+}
+.fa-envelope:before {
+    padding-right: 1em;
+    content: "\f0e0";
+}
+.fa-globe-americas:before {
+    padding-right: 1em;
+    content: "\f57d";
+}
+.fa-facebook:before {
+    padding-right: 1em;
+    content: "\f09a";
+}
+.fa-instagram:before {
+    padding-right: 1em;
+    content: "\f16d";
+}
+.fa-twitter-square:before {
+    padding-right: 1em;
+    content: "\f081";
+}
+.contact{
+    line-height: 2em;
+}
+img{
+    position: relative;
+     
+    border-radius: 25em;
+    height: 12em;
+    width: 12em;
+}
+#pic{
+    padding-top: 1em;
+}
+#contact2{
+    border-bottom: 1.3px solid  black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width:16em;
+}
